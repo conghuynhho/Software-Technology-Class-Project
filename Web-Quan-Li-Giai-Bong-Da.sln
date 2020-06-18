@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Web-Quan-Li-Giai-Bong-Da", "Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da.vbproj", "{8C7E873B-E8BC-400F-BEFC-3EDB2D7CD071}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7E873B-E8BC-400F-BEFC-3EDB2D7CD071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7E873B-E8BC-400F-BEFC-3EDB2D7CD071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7E873B-E8BC-400F-BEFC-3EDB2D7CD071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7E873B-E8BC-400F-BEFC-3EDB2D7CD071}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D1C2979-D799-4C01-91BA-88E2E3EFD66F}
+	EndGlobalSection
+EndGlobal
