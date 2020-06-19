@@ -3,7 +3,8 @@
 ******* Mục đích của note này là ghi chú lại cho người khác hiểu. *********
 
 
-
+1. master-layout (file _layout.vbhtml)
+    - 
 
 
 

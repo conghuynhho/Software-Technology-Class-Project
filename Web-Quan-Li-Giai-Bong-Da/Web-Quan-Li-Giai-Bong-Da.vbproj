@@ -193,9 +193,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\assets\fonts\Cookie-Regular.ttf" />
-    <Content Include="Content\assets\fonts\Montserrat-Regular.ttf" />
     <Content Include="Content\assets\fonts\DancingScript-VariableFont_wght.ttf" />
+    <Content Include="Content\assets\fonts\CormorantInfant-Bold.ttf" />
+    <Content Include="Content\assets\fonts\CormorantInfant-SemiBold.ttf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -207,6 +207,7 @@
     </None>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Note.txt" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
