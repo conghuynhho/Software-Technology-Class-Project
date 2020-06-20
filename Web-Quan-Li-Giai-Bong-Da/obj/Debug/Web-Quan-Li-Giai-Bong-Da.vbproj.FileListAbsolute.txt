@@ -58,3 +58,7 @@ C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Qua
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web-Quan-Li-Giai-Bong-Da.dll
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web-Quan-Li-Giai-Bong-Da.xml
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web-Quan-Li-Giai-Bong-Da.pdb
+C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\EntityFramework.dll
+C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\EntityFramework.SqlServer.dll
+C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\EntityFramework.xml
+C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\EntityFramework.SqlServer.xml
