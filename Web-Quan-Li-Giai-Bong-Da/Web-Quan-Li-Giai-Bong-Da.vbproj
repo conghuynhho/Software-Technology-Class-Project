@@ -61,6 +61,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -162,6 +164,19 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\banthang.vb" />
+    <Compile Include="Models\bxh_doi.vb" />
+    <Compile Include="Models\cauthu.vb" />
+    <Compile Include="Models\cauthu_ghiban.vb" />
+    <Compile Include="Models\cauthu_rasan.vb" />
+    <Compile Include="Models\doibong.vb" />
+    <Compile Include="Models\loaicauthu.vb" />
+    <Compile Include="Models\Model1.vb" />
+    <Compile Include="Models\muagiai.vb" />
+    <Compile Include="Models\san.vb" />
+    <Compile Include="Models\thamso.vb" />
+    <Compile Include="Models\trandau.vb" />
+    <Compile Include="Models\trongtai.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -188,6 +203,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\bongda.mdf" />
+    <Content Include="App_Data\bongda_log.ldf">
+      <DependentUpon>bongda.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\assets\header-fixed.css" />
     <Content Include="Content\assets\fonts\DancingScript-VariableFont_wght.ttf" />
     <Content Include="Content\assets\fonts\CormorantInfant-Bold.ttf" />
@@ -347,10 +366,7 @@
     <Content Include="Views\Shared\_Layout.vbhtml" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
