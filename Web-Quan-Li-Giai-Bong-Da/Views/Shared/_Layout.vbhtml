@@ -38,6 +38,7 @@
                         @Html.ActionLink("Đội Bóng", "", "")
                         <div class="dropdown-content">
                             <a href="#">Sân</a>
+                            @Html.ActionLink("Hồ sơ Đội bóng", "")
                         </div>
                     </li>
                     <li class="my-dropdown">
@@ -48,9 +49,9 @@
                         </div>
                     </li>
                     <li class="my-dropdown">
-                        @Html.ActionLink("Lịch Thi Đấu", "", "")
+                        @Html.ActionLink("Trận đấu", "", "")
                         <div class="dropdown-content">
-                            <a href="#">Trọng Tài</a>
+                            @Html.ActionLink("Trọng tài", "Index", "TrongTai")
                         </div>
                     </li>
                     <li class="my-dropdown">
@@ -86,7 +87,7 @@
         <br />
         <br />
         <div class="footer">
-            <p>&copy; @DateTime.Now.Year - Huynh,Vi,Khai,Kham,Dac</p>
+            <p>&copy; @DateTime.Now.Year - Đồ án Công nghệ phần mềm SE104.K21</p>
         </div>
     </div>
 

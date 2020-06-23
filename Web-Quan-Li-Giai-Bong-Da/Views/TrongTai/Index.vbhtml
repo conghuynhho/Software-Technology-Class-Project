@@ -4,10 +4,10 @@ ViewData("Title") = "Index"
 Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 
-<h2>Index</h2>
+<h2>Danh sách trọng tài</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Thêm trọng tài mới", "Create")
 </p>
 <table class="table">
     <tr>
@@ -35,9 +35,9 @@ End Code
             @Html.DisplayFor(Function(modelItem) item.QuocTich)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", New With {.id = item.MaTrongTai }) |
-            @Html.ActionLink("Details", "Details", New With {.id = item.MaTrongTai }) |
-            @Html.ActionLink("Delete", "Delete", New With {.id = item.MaTrongTai })
+            @Html.ActionLink("Sửa", "Edit", New With {.id = item.MaTrongTai}) |
+            @Html.ActionLink("Chi tiết", "Details", New With {.id = item.MaTrongTai}) |
+            @Html.ActionLink("Xóa", "Delete", New With {.id = item.MaTrongTai})
         </td>
     </tr>
 Next
