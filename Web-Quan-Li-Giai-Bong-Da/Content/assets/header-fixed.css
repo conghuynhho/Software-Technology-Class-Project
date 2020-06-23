@@ -114,9 +114,10 @@
   color: black;
   padding: 10px;
   text-decoration: none;
-  display: block;
+  display: none;
   text-align: left;
 }
+/*****************HOVER BEGIN*******************/
 /* Hover style for the dropdown-content */
 .header-fixed .header-limiter nav ul .my-dropdown .dropdown-content a:hover {
 	background-color: #d2d2d2;
@@ -128,18 +129,27 @@
 	opacity:1;
 	height:auto;
 }
+/* When hover the <li class="my-dropdown"> , the <a> will display = block > 
+   Need to use " display = none + height=0 + opacity=0 " to have a perfect hovering effects
+   height and opacity can save the transition effects but can't clear the element's space
+   apply a display=none to <a> tag can solve this problem
+*/
+.header-fixed .header-limiter nav ul .my-dropdown:hover .dropdown-content a{
+	display:block;
+}
 /* Fix hover (when hover the dropdown-conntent, the dropdown-btn still being hovered */
 .header-fixed .header-limiter nav ul li:hover a{
 	color:black;
 	background: white;
 }
 
-/* Make the hover styles  */
+/* Make the hover styles for the main menu button */
 .header-fixed .header-limiter nav ul li a:hover{
 	opacity:1;
 	color:black;
 	background: #d2d2d2;
 }
+/******************HOVER END*****************/
 
 .header-fixed .header-limiter nav ul li .selected {
 	color: #608bd2;
