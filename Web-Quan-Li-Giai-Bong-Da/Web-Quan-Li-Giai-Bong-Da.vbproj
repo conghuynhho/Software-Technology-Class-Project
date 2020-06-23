@@ -161,22 +161,28 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\BanThangController.vb" />
+    <Compile Include="Controllers\LoaiCauThuController.vb" />
+    <Compile Include="Controllers\MuaGiaiController.vb" />
+    <Compile Include="Controllers\SANController.vb" />
+    <Compile Include="Controllers\ThamSoController.vb" />
+    <Compile Include="Controllers\TRONGTAIController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\banthang.vb" />
-    <Compile Include="Models\bxh_doi.vb" />
-    <Compile Include="Models\cauthu.vb" />
-    <Compile Include="Models\cauthu_ghiban.vb" />
-    <Compile Include="Models\cauthu_rasan.vb" />
-    <Compile Include="Models\doibong.vb" />
-    <Compile Include="Models\loaicauthu.vb" />
+    <Compile Include="Models\BANTHANG.vb" />
+    <Compile Include="Models\BXH_DOI.vb" />
+    <Compile Include="Models\CAUTHU.vb" />
+    <Compile Include="Models\CAUTHU_GHIBAN.vb" />
+    <Compile Include="Models\CAUTHU_RASAN.vb" />
+    <Compile Include="Models\DOIBONG.vb" />
+    <Compile Include="Models\LOAICAUTHU.vb" />
     <Compile Include="Models\Model1.vb" />
-    <Compile Include="Models\muagiai.vb" />
-    <Compile Include="Models\san.vb" />
-    <Compile Include="Models\thamso.vb" />
-    <Compile Include="Models\trandau.vb" />
-    <Compile Include="Models\trongtai.vb" />
+    <Compile Include="Models\MUAGIAI.vb" />
+    <Compile Include="Models\SAN.vb" />
+    <Compile Include="Models\THAMSO.vb" />
+    <Compile Include="Models\TRAUDAU.vb" />
+    <Compile Include="Models\TRONGTAI.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -203,9 +209,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\bongda.mdf" />
-    <Content Include="App_Data\bongda_log.ldf">
-      <DependentUpon>bongda.mdf</DependentUpon>
+    <Content Include="App_Data\GIAIBONGDA.mdf" />
+    <Content Include="App_Data\GIAIBONGDA_log.ldf">
+      <DependentUpon>GIAIBONGDA.mdf</DependentUpon>
     </Content>
     <Content Include="Content\assets\header-fixed.css" />
     <Content Include="Content\assets\fonts\DancingScript-VariableFont_wght.ttf" />
@@ -343,6 +349,36 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\San\Create.vbhtml" />
+    <Content Include="Views\San\Delete.vbhtml" />
+    <Content Include="Views\San\Details.vbhtml" />
+    <Content Include="Views\San\Edit.vbhtml" />
+    <Content Include="Views\San\Index.vbhtml" />
+    <Content Include="Views\TrongTai\Create.vbhtml" />
+    <Content Include="Views\TrongTai\Delete.vbhtml" />
+    <Content Include="Views\TrongTai\Details.vbhtml" />
+    <Content Include="Views\TrongTai\Edit.vbhtml" />
+    <Content Include="Views\TrongTai\Index.vbhtml" />
+    <Content Include="Views\MuaGiai\Create.vbhtml" />
+    <Content Include="Views\MuaGiai\Delete.vbhtml" />
+    <Content Include="Views\MuaGiai\Details.vbhtml" />
+    <Content Include="Views\MuaGiai\Edit.vbhtml" />
+    <Content Include="Views\MuaGiai\Index.vbhtml" />
+    <Content Include="Views\BanThang\Create.vbhtml" />
+    <Content Include="Views\BanThang\Delete.vbhtml" />
+    <Content Include="Views\BanThang\Details.vbhtml" />
+    <Content Include="Views\BanThang\Edit.vbhtml" />
+    <Content Include="Views\BanThang\Index.vbhtml" />
+    <Content Include="Views\LoaiCauThu\Create.vbhtml" />
+    <Content Include="Views\LoaiCauThu\Delete.vbhtml" />
+    <Content Include="Views\LoaiCauThu\Details.vbhtml" />
+    <Content Include="Views\LoaiCauThu\Edit.vbhtml" />
+    <Content Include="Views\LoaiCauThu\Index.vbhtml" />
+    <Content Include="Views\ThamSo\Create.vbhtml" />
+    <Content Include="Views\ThamSo\Delete.vbhtml" />
+    <Content Include="Views\ThamSo\Details.vbhtml" />
+    <Content Include="Views\ThamSo\Edit.vbhtml" />
+    <Content Include="Views\ThamSo\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

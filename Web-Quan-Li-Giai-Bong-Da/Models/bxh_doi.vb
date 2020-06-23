@@ -4,7 +4,7 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-Partial Public Class bxh_doi
+Partial Public Class BXH_DOI
     <Key>
     <Column(Order:=0)>
     <StringLength(20)>

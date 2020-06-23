@@ -4,10 +4,10 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("san")>
-Partial Public Class san
+<Table("SAN")>
+Partial Public Class SAN
     Public Sub New()
-        doibongs = New HashSet(Of doibong)()
+        DOIBONGs = New HashSet(Of DOIBONG)()
     End Sub
 
     <Key>
@@ -20,5 +20,5 @@ Partial Public Class san
     <StringLength(30)>
     Public Property Diachi As String
 
-    Public Overridable Property doibongs As ICollection(Of doibong)
+    Public Overridable Property DOIBONGs As ICollection(Of DOIBONG)
 End Class

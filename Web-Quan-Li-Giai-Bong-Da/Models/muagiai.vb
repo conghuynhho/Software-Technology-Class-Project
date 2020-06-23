@@ -4,10 +4,10 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("muagiai")>
-Partial Public Class muagiai
+<Table("MUAGIAI")>
+Partial Public Class MUAGIAI
     Public Sub New()
-        trandaus = New HashSet(Of trandau)()
+        TRAUDAUs = New HashSet(Of TRAUDAU)()
     End Sub
 
     <Key>
@@ -24,5 +24,5 @@ Partial Public Class muagiai
     <Column(TypeName:="date")>
     Public Property NgayKetThuc As Date?
 
-    Public Overridable Property trandaus As ICollection(Of trandau)
+    Public Overridable Property TRAUDAUs As ICollection(Of TRAUDAU)
 End Class

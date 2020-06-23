@@ -8,8 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/assets/demo.css")
     @Styles.Render("~/Content/assets/header-fixed.css")
+    @Scripts.Render("~/bundles/modernizr")
+
 
 </head>
 
@@ -28,7 +31,7 @@
                         @Html.ActionLink("Mùa Giải", "", "") <!-- this is <a> tag-->
                         <div class="dropdown-content">
                             <a href="#">Bảng Xếp Hạng</a>
-                            
+
                         </div>
                     </li>
                     <li class="my-dropdown">
@@ -61,7 +64,7 @@
                     <li>@Html.ActionLink("Giới Thiệu", "About", "Home")</li>
 
                 </ul>
-                
+
             </nav>
 
         </div>
@@ -87,40 +90,40 @@
         </div>
     </div>
 
-    
+
 
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
 
-	$(document).ready(function(){
+        $(document).ready(function () {
 
-		var showHeaderAt = 150;
+            var showHeaderAt = 150;
 
-		var win = $(window),
-				body = $('body');
+            var win = $(window),
+                body = $('body');
 
-		// Show the fixed header only on larger screen devices
+            // Show the fixed header only on larger screen devices
 
-		if(win.width() > 600){
+            if (win.width() > 600) {
 
-			// When we scroll more than 150px down, we set the
-			// "fixed" class on the body element.
+                // When we scroll more than 150px down, we set the
+                // "fixed" class on the body element.
 
-			win.on('scroll', function(e){
+                win.on('scroll', function (e) {
 
-				if(win.scrollTop() > showHeaderAt) {
-					body.addClass('fixed');
-				}
-				else {
-					body.removeClass('fixed');
-				}
-			});
+                    if (win.scrollTop() > showHeaderAt) {
+                        body.addClass('fixed');
+                    }
+                    else {
+                        body.removeClass('fixed');
+                    }
+                });
 
-		}
+            }
 
-	});
+        });
 
     </script>
 
@@ -128,6 +131,12 @@
     <!-- Demo ads. Please ignore and remove. -->
     <!-- <script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script> -->
 
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required:=False)
 
 </body>
 

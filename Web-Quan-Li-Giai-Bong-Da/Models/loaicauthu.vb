@@ -4,10 +4,10 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("loaicauthu")>
-Partial Public Class loaicauthu
+<Table("LOAICAUTHU")>
+Partial Public Class LOAICAUTHU
     Public Sub New()
-        cauthus = New HashSet(Of cauthu)()
+        CAUTHUs = New HashSet(Of CAUTHU)()
     End Sub
 
     <Key>
@@ -16,7 +16,7 @@ Partial Public Class loaicauthu
 
     <Column("LoaiCauThu")>
     <StringLength(30)>
-    Public Property LoaiCauThu1 As String
+    Public Property LoaiCauThu As String
 
-    Public Overridable Property cauthus As ICollection(Of cauthu)
+    Public Overridable Property CAUTHUs As ICollection(Of CAUTHU)
 End Class

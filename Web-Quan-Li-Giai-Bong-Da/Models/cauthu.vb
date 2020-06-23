@@ -4,8 +4,8 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("cauthu")>
-Partial Public Class cauthu
+<Table("CAUTHU")>
+Partial Public Class CAUTHU
     <Key>
     <StringLength(20)>
     Public Property MaCauThu As String
@@ -33,7 +33,7 @@ Partial Public Class cauthu
     <StringLength(1000)>
     Public Property HinhAnh As String
 
-    Public Overridable Property doibong As doibong
+    Public Overridable Property DOIBONG As DOIBONG
 
-    Public Overridable Property loaicauthu As loaicauthu
+    Public Overridable Property LOAICAUTHU As LOAICAUTHU
 End Class

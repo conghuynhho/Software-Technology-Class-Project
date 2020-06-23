@@ -4,10 +4,10 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("trongtai")>
-Partial Public Class trongtai
+<Table("TRONGTAI")>
+Partial Public Class TRONGTAI
     Public Sub New()
-        trandaus = New HashSet(Of trandau)()
+        TRAUDAUs = New HashSet(Of TRAUDAU)()
     End Sub
 
     <Key>
@@ -20,5 +20,5 @@ Partial Public Class trongtai
     <StringLength(20)>
     Public Property QuocTich As String
 
-    Public Overridable Property trandaus As ICollection(Of trandau)
+    Public Overridable Property TRAUDAUs As ICollection(Of TRAUDAU)
 End Class

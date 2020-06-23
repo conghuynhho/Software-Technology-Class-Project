@@ -4,7 +4,7 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-Partial Public Class cauthu_rasan
+Partial Public Class CAUTHU_RASAN
     <Key>
     <Column(Order:=0)>
     <StringLength(20)>
@@ -24,5 +24,5 @@ Partial Public Class cauthu_rasan
     <StringLength(20)>
     Public Property ViTri As String
 
-    Public Overridable Property doibong As doibong
+    Public Overridable Property DOIBONG As DOIBONG
 End Class

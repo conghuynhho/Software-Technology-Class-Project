@@ -4,11 +4,11 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("doibong")>
-Partial Public Class doibong
+<Table("DOIBONG")>
+Partial Public Class DOIBONG
     Public Sub New()
-        cauthus = New HashSet(Of cauthu)()
-        cauthu_rasan = New HashSet(Of cauthu_rasan)()
+        CAUTHUs = New HashSet(Of CAUTHU)()
+        CAUTHU_RASAN = New HashSet(Of CAUTHU_RASAN)()
     End Sub
 
     <Key>
@@ -25,9 +25,9 @@ Partial Public Class doibong
     <Column(TypeName:="date")>
     Public Property NgayThanhLap As Date?
 
-    Public Overridable Property cauthus As ICollection(Of cauthu)
+    Public Overridable Property CAUTHUs As ICollection(Of CAUTHU)
 
-    Public Overridable Property cauthu_rasan As ICollection(Of cauthu_rasan)
+    Public Overridable Property CAUTHU_RASAN As ICollection(Of CAUTHU_RASAN)
 
-    Public Overridable Property san As san
+    Public Overridable Property SAN As SAN
 End Class

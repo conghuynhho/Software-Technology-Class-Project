@@ -4,8 +4,8 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-<Table("thamso")>
-Partial Public Class thamso
+<Table("THAMSO")>
+Partial Public Class THAMSO
     <Key>
     <StringLength(16)>
     Public Property MaTS As String

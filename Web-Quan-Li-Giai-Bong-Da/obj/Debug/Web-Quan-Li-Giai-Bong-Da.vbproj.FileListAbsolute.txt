@@ -50,7 +50,6 @@ C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Qua
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\Newtonsoft.Json.xml
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\Antlr3.Runtime.pdb
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web-Quan-Li-Giai-Bong-Da.vbprojAssemblyReference.cache
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web_Quan_Li_Giai_Bong_Da.Resources.resources
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web-Quan-Li-Giai-Bong-Da.vbproj.GenerateResource.cache
 C:\Users\Huynh\Google Drive\Work and Pratice\Projects\Visual Studio 2019\Web-Quan-Li-Giai-Bong-Da\Web-Quan-Li-Giai-Bong-Da\obj\Debug\Web-Quan-Li-Giai-Bong-Da.vbproj.CoreCompileInputs.cache

@@ -4,7 +4,7 @@ Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Data.Entity.Spatial
 
-Partial Public Class cauthu_ghiban
+Partial Public Class CAUTHU_GHIBAN
     <Key>
     <Column(Order:=0)>
     <StringLength(20)>
@@ -24,5 +24,5 @@ Partial Public Class cauthu_ghiban
     <StringLength(20)>
     Public Property MaLoaiBanThang As String
 
-    Public Overridable Property banthang As banthang
+    Public Overridable Property BANTHANG As BANTHANG
 End Class
