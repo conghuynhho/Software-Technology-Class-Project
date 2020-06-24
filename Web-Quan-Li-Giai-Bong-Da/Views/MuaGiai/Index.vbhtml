@@ -4,33 +4,21 @@ ViewData("Title") = "Index"
 Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 
-<h2>Index</h2>
+<h2>Danh sách mùa giải</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Thêm Mùa giải mới", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(Function(model) model.MaMua)
-        </th>
-        <th>
-            @Html.DisplayNameFor(Function(model) model.TenMua)
-        </th>
-        <th>
-            @Html.DisplayNameFor(Function(model) model.NgayBatDau)
-        </th>
-        <th>
-            @Html.DisplayNameFor(Function(model) model.NgayKetThuc)
-        </th>
+        <th>Tên mùa giải</th>
+        <th>Ngày bắt đầu</th>
+        <th>Ngày kết thúc</th>
         <th></th>
     </tr>
 
 @For Each item In Model
     @<tr>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.MaMua)
-        </td>
         <td>
             @Html.DisplayFor(Function(modelItem) item.TenMua)
         </td>
@@ -41,9 +29,9 @@ End Code
             @Html.DisplayFor(Function(modelItem) item.NgayKetThuc)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", New With {.id = item.MaMua }) |
-            @Html.ActionLink("Details", "Details", New With {.id = item.MaMua }) |
-            @Html.ActionLink("Delete", "Delete", New With {.id = item.MaMua })
+            @Html.ActionLink("Sửa", "Edit", New With {.id = item.MaMua}) |
+            @Html.ActionLink("Chi tiết", "Details", New With {.id = item.MaMua}) |
+            @Html.ActionLink("Xóa", "Delete", New With {.id = item.MaMua})
         </td>
     </tr>
 Next

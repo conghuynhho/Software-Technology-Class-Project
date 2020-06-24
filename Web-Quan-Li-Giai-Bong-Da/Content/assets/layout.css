@@ -12,7 +12,9 @@
 }
 .header
 {
-    text-align:center;
+    text-align:center !important;
     color: brown;
+    font-size:30px;
+    font-weight:700;
 
 }

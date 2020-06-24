@@ -11,13 +11,6 @@ End Code
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(Function(model) model.MaMua)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(Function(model) model.MaMua)
-        </dd>
-        <dt>
             @Html.DisplayNameFor(Function(model) model.TenMua)
         </dt>
 
