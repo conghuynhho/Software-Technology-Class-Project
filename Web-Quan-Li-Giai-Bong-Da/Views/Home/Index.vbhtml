@@ -5,12 +5,12 @@
     @Styles.Render("~/Content/assets/layout.css")
 End Code
 
-<h2>Giải vô địch bóng đá Quốc Gia</h2>
+<h2 class="header"> GIẢI VÔ ĐỊCH BÓNG ĐÁ QUỐC GIA</h2>
 <div class="center">
-    <button type="button" class="btn btn-primary button">Mùa giải</button><br />
-    <button type="button" class="btn btn-warning button">Hồ sơ đội bóng</button><br />
-    <button type="button" class="btn btn-success button">Tra cứu cầu thủ</button><br />
-    <button type="button" class="btn btn-danger button">Trận đấu</button><br />
-    <button type="button" class="btn btn-info button">Bảng xếp hạng</button><br />
+    <a class=" btn btn-primary button " href="MuaGiai/Index">Mùa giải</a>
+    <a class=" btn btn-warning button" href="DoiBong/Index">Hồ sơ đội bóng</a>
+    <a class="btn btn-success button" href="TraCuu/Index">Tra cứu cầu thủ</a>
+    <a class="btn btn-danger button" href="TranDau/Index">Trận đấu</a>
+    <a class="btn btn-info button" href="BXH/Index">Bảng xếp hạng</a>
 </div>
 

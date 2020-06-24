@@ -162,6 +162,7 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="Controllers\BanThangController.vb" />
+    <Compile Include="Controllers\DoiBongController.vb" />
     <Compile Include="Controllers\LoaiCauThuController.vb" />
     <Compile Include="Controllers\MuaGiaiController.vb" />
     <Compile Include="Controllers\SANController.vb" />
@@ -380,6 +381,11 @@
     <Content Include="Views\ThamSo\Details.vbhtml" />
     <Content Include="Views\ThamSo\Edit.vbhtml" />
     <Content Include="Views\ThamSo\Index.vbhtml" />
+    <Content Include="Views\DoiBong\Create.vbhtml" />
+    <Content Include="Views\DoiBong\Delete.vbhtml" />
+    <Content Include="Views\DoiBong\Details.vbhtml" />
+    <Content Include="Views\DoiBong\Edit.vbhtml" />
+    <Content Include="Views\DoiBong\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
